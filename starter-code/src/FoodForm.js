@@ -41,7 +41,7 @@ class FoodForm extends Component {
     render() {
         return (
             <div>
-                <button onClick={() => this.toggleForm()}>Add Form</button>
+                <button class="button is-warning" onClick={() => this.toggleForm()}>Add Form</button>
 
 
                 <form className={this.state.className} onSubmit={this.handleFormSubmit}>

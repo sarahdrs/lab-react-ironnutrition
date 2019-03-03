@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import 'bulma/css/bulma.css';
-import foods from './foods.json'
 
 class Foodbox extends Component {
 
@@ -20,7 +18,7 @@ class Foodbox extends Component {
           <div className="media-content">
             <div className="content">
               <p>
-                <strong>{this.props.name}</strong> <br />
+                <strong>{this.props.name}</strong> <br/>
                 <small>{this.props.calories}</small>
               </p>
             </div>
